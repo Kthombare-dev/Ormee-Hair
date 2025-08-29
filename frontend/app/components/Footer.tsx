@@ -14,7 +14,7 @@ export default function Footer() {
     <footer className="bg-[#4B2E1E] text-[#F2E3C9]">
       {/* Newsletter */}
       <div className="border-b border-[#F9A826]/30">
-        <div className="container mx-auto px-6 py-16 text-center">
+        <div className="w-full px-6 py-16 text-center">
           <h3 className="text-2xl md:text-3xl font-serif font-bold mb-4">
             Stay Beautiful with{" "}
             <span className="text-[#F9A826]">Ormee Hairs</span>
@@ -39,7 +39,7 @@ export default function Footer() {
       </div>
 
       {/* Footer Content */}
-      <div className="container mx-auto px-6 py-16">
+      <div className="w-full px-6 py-16">
         <div className="grid lg:grid-cols-6 gap-12">
           {/* Brand */}
           <div className="lg:col-span-2">
