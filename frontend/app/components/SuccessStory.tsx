@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function SuccessStory() {
   return (
-    <section className="section-padding">
+    <section className="section-padding w-full">
       <div className="container mx-auto">
         {/* Success Story */}
         <div className="mb-24">

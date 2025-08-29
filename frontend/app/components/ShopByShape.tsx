@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ShopByShape() {
   return (
-    <section className="section-padding">
+    <section className="section-padding w-full">
       <div className="container mx-auto">
         {/* Heading */}
         <div className="text-center mb-16">

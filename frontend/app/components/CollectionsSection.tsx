@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function CollectionsSection() {
   return (
-    <section className="section-padding bg-secondary/30">
+    <section className="section-padding bg-secondary/30 w-full">
       <div className="container mx-auto">
         {/* Section Heading */}
         <div className="text-center mb-16">

@@ -2,7 +2,7 @@
 
 export default function ServicesSection() {
   return (
-    <section className="section-padding bg-accent text-accent-foreground">
+    <section className="section-padding bg-accent text-accent-foreground w-full">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">

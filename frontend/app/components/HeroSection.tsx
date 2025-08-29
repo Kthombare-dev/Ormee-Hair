@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center hero-gradient overflow-hidden">
+    <section className="relative flex items-center justify-center hero-gradient overflow-hidden w-full h-[700px] sm:h-[800px] lg:h-[900px]">
       {/* Background images */}
       <div className="absolute inset-0 grid grid-cols-2 opacity-30">
         <div className="relative">
@@ -37,11 +37,9 @@ export default function HeroSection() {
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 animate-fade-in-up">
-          <span className="text-gradient">Heritage</span>
+          <span className="text-gradient">Ormee</span>
           <br />
-          <span className="text-foreground">in Every</span>
-          <br />
-          <span className="text-gradient">Strand</span>
+          <span className="text-foreground">Hairs</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up">
