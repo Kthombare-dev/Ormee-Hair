@@ -22,11 +22,12 @@ export default function ShopByShape() {
           <div className="relative">
             <div className="card-luxury overflow-hidden">
               <Image
-                src="/assets/hair-clips-shapes-Bhw1Q2nA.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/ormee-hair-62ddb.firebasestorage.app/o/herosection-image%2Fhair-clips-shapes.jpg?alt=media&token=23834ede-41df-40ae-91f2-865cb0139a0b"
                 alt="Hair Extension Shapes and Accessories"
                 width={800}
                 height={600}
                 className="w-full h-96 object-cover"
+                priority
               />
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent"></div>
             </div>

@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 grid grid-cols-2 opacity-30">
         <div className="relative">
           <Image
-            src="/assets/remy-hair-hero-B42HSk80.jpg"
+            src="https://firebasestorage.googleapis.com/v0/b/ormee-hair-62ddb.firebasestorage.app/o/herosection-image%2Fremy-hair-hero.jpg?alt=media&token=8a1d4282-412d-460b-a7e8-a5ff3453710e"
             alt="Luxury Remy Hair"
             fill
             className="object-cover"
@@ -19,7 +19,7 @@ export default function HeroSection() {
         </div>
         <div className="relative">
           <Image
-            src="/assets/virgin-hair-hero-BEBnyFk6.jpg"
+            src="https://firebasestorage.googleapis.com/v0/b/ormee-hair-62ddb.firebasestorage.app/o/herosection-image%2Fvirgin-hair-hero.jpg?alt=media&token=8afb7371-0578-4640-ac15-780b658a2a95"
             alt="Premium Virgin Hair"
             fill
             className="object-cover"

@@ -21,7 +21,7 @@ export default function SuccessStory() {
             <div className="grid lg:grid-cols-2 gap-0">
               <div className="relative h-96 lg:h-auto">
                 <Image
-                  src="/assets/hair-stylist-Ca2syHXX.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/ormee-hair-62ddb.firebasestorage.app/o/herosection-image%2Fhair-stylist.jpg?alt=media&token=7d0e7531-24ea-404f-9c2f-e8b342ff1b9a"
                   alt="Sarah Chen"
                   fill
                   className="object-cover"
