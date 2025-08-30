@@ -39,7 +39,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="absolute left-1/2 -translate-x-1/2">
             <h1 className="font-serif text-gradient transition-all duration-1000 text-xl font-bold">
-              Ormee Hairs
+              Ormee Hair
             </h1>
           </div>
 

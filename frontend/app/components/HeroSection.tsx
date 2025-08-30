@@ -31,21 +31,15 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 text-center section-padding max-w-6xl mx-auto">
-        <div className="inline-flex items-center px-6 py-2 bg-secondary/80 rounded-full text-accent font-medium mb-6 animate-fade-in-up">
-          <span className="w-2 h-2 bg-primary rounded-full mr-3 animate-glow"></span>
-          About Us - Premium Hair Collection
-        </div>
-
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 animate-fade-in-up">
-          <span className="text-gradient">Ormee</span>
+          <span className="text-gradient">ORMÉE</span>
           <br />
-          <span className="text-foreground">Hairs</span>
+          <span className="text-foreground">Hair</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up">
-          Discover the finest collection of Remy and Virgin hair extensions,
-          crafted with heritage techniques and uncompromising quality for the
-          modern woman.
+          Heritage in every strand. Explore our premium Remy & Virgin hair
+          extensions, crafted with tradition, perfected for today’s woman.
         </p>
 
         {/* CTA Buttons */}
