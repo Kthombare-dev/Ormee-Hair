@@ -61,7 +61,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <MapPin size={18} />
-                <span className="text-sm text-white">Vrushabari Towers, Whitefield, Bengaluru</span>
+                <span className="text-sm text-white">Vrushabadri Towers, Whitefield, Bengaluru</span>
               </div>
             </div>
           </div>
