@@ -34,3 +34,62 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+/* Section padding utility */
+.section-padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Card luxury styles */
+.card-luxury {
+  background: var(--background);
+  border-radius: 1rem;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+/* Luxury hover shadow */
+.hover\:shadow-luxury:hover {
+  box-shadow: 0 10px 30px rgba(204, 152, 57, 0.35);
+}
+
+/* Glow shadow for CTA */
+.hover\:shadow-glow:hover {
+  box-shadow: 0 0 40px rgba(204, 152, 57, 0.45);
+}
+
+/* Simple fade-in-up animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Color tokens used in classes within markup */
+.text-muted-foreground { color: color-mix(in srgb, var(--foreground) 60%, transparent); }
+.text-accent { color: #8a6b2a; }
+.bg-secondary\/30 { background-color: color-mix(in srgb, var(--foreground) 6%, transparent); }
+.from-accent\/70 { --tw-gradient-from: rgba(138, 107, 42, 0.7); }
+.via-accent\/20 { --tw-gradient-to: rgba(138, 107, 42, 0.2); }
+.to-transparent { }
+.text-primary { color: var(--color-primary); }
+.border-primary { border-color: var(--color-primary); }
+.bg-primary { background-color: var(--color-primary); }
+.text-primary-foreground { color: #ffffff; }
+.hover\:text-primary-foreground:hover { color: #ffffff; }
+.bg-gradient-to-r { background-image: linear-gradient(to right, var(--tw-gradient-from), var(--tw-gradient-to)); }
+.from-primary { --tw-gradient-from: var(--color-primary); }
+.to-primary-glow { --tw-gradient-to: rgba(204, 152, 57, 0.6); }
+.bg-background\/90 { background-color: color-mix(in srgb, var(--background) 90%, transparent); }
